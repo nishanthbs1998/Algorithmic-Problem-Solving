@@ -1,0 +1,18 @@
+Pascal's Triangle:
+Input for Pascal's triangle are binomial coefficients.
+
+Binomial coefficients can be calculated by three methods, namely:
+1. Recursion:
+    a. This method can be implemented for smaller range of inputs.
+    b. This method is not suitable for larger range of inputs due to a relatively more space and time consumption.
+
+2. Dynamic Programming approach(2-D array):
+    a. Unlike the recursive method, the values are computed once and stored in a 2D array.
+    b. Space and time complexity is O(n*k).
+  
+3. Dynamic Programming approach(1-D array):
+   a. This is an optimised version of DP approach. It overites the existing array and gets the new values by adding 
+      to the previous value.
+   b. Time complexity remains same as that of the previous method, i.e O(n*k).
+   c. Out of the three methods, this method consumes least space.
+   
