@@ -1,0 +1,17 @@
+1. Look up table:
+   a. Time and space complexity is O(n^2)
+   b. Query time is constant, i.e O(1)
+   c. This can be used for both static and dynamic arrays.
+   
+2. Square root decomposition:
+   a. Space complexity is O(sqrt(n))
+   b. Time complexity for processing is O(n)
+   c. Query time is O(sqrt(n))
+   d. When there is a need to cover the entire block, this method is apt.
+   e. This can be used for both static and dynamic arrays.
+   
+3. Segment tree:
+   a. Time complexity is O(logn)
+   b. Processing time is O(n)
+   c. It is a binary tree
+   d. This can be used only for static array.
